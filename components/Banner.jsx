@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-2">
       <div className="aspect-video rounded">
         <img
           className="w-full h-full object-cover rounded"
