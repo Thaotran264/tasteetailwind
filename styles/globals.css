@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 html,
 body {
@@ -26,6 +28,6 @@ a {
 
   body {
     color: white;
-    background: gray;
+    background-color: #e5e5e5;
   }
 }
