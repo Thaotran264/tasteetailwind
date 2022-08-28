@@ -31,3 +31,18 @@ export const listRes = [
   'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1600',
   'https://images.pexels.com/photos/744780/pexels-photo-744780.jpeg?auto=compress&cs=tinysrgb&w=1600'
 ]
+
+export const listBrand =[ 
+  'https://i.pinimg.com/474x/78/ba/dc/78badca2d28af73cc369e0a3967406e8.jpg',
+'https://i.pinimg.com/474x/6e/31/90/6e3190043c590d18b52010c3eff89ccd.jpg',
+'https://i.pinimg.com/474x/38/8e/15/388e157420c31b9f7f7b718e5180dfd9.jpg',
+'https://i.pinimg.com/474x/99/41/f8/9941f89a564284655ac948a05c4f84f5.jpg',  'https://i.pinimg.com/474x/82/f4/6a/82f46a9995a8360a3bddbebf9bbce8a3.jpg',
+  'https://i.pinimg.com/474x/be/58/b9/be58b94e67ad025ca30b661c63d1fcfe.jpg',
+  'https://i.pinimg.com/474x/e0/17/82/e01782075c953ab8aae0eaaa9ef2d8b2.jpg',
+  'https://i.pinimg.com/474x/26/0a/e2/260ae20eb44f9c47858ec7e6bd3ffd1f.jpg'
+,'https://i.pinimg.com/474x/df/c0/d6/dfc0d65e2f2c43bd621d1f3cc44c9f07.jpg',
+'https://i.pinimg.com/474x/5e/d3/21/5ed321feeb07765a5f6b36bd16d8f08d.jpg',
+'https://i.pinimg.com/474x/a0/9c/1f/a09c1f24fd9813f572627df27ef929a5.jpg',
+'https://i.pinimg.com/474x/be/d4/15/bed415ea97a32bcf0e61bae1da04f69d.jpg'
+
+]

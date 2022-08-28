@@ -19,7 +19,7 @@ const BannerSlide = () => {
     dots: true,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
         responsive: [
       {
@@ -27,8 +27,6 @@ const BannerSlide = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          nextArrow: <SampleNextArrow />,
-          prevArrow: <SamplePrevArrow />,
         },
       },
     ],
@@ -36,7 +34,7 @@ const BannerSlide = () => {
 
   return (
     <div className="container mx-auto px-2 mb-2">
-      <div className="rounded">
+      <div className="rounded bannerConfig">
         <Slider {...settings} className="mb-2">
           {listRes &&
             listRes.map((item, index) => (
