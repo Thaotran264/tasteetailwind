@@ -3,7 +3,7 @@ import { BsSearch, BsCart } from "react-icons/bs";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-white z-50">
-      <nav className="container border-b-2 border-black h-12 md:h-16 text-red-900 flex p-2 mx-auto items-center justify-between">
+      <nav className="container border-b-2 border-black h-16 text-red-900 flex p-2 mx-auto items-center justify-between">
         <div className="h-full">
           <img
             className="hidden md:block w-full h-full object-cover"

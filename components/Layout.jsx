@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main>{children}</main>
+      <main className="mt-16 py-2">{children}</main>
       <Footer />
     </div>
   );

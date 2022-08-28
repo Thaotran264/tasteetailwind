@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../components/Banner";
+import Banner from "../components/Banner/Banner";
 import BrandInfo from "../components/BrandInfo";
 import Photos from "../components/Photos";
 
