@@ -20,16 +20,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
 .bannerConfig .slick-dots {
   bottom: 10px !important;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    /* color-scheme: dark; */
-  }
-
-  body {
-    color: white;
-    background-color: #e5e5e5;
-  }
 }

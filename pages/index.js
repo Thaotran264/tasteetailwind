@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Banner from "../components/Banner/Banner";
+import Layout from "../components/Layout/Layout";
+import MenuButton from "../components/MenuButton";
 import Page from "../components/Page";
 import BannerSlide from "../components/Slider/BannerSlide";
 import BrandSlide from "../components/Slider/BrandSlide";
-import MultiSlide from "../components/Slider/MultiSlide";
 import SingleSlide from "../components/Slider/SingleSlide";
 
 export default function Home() {
@@ -19,6 +20,13 @@ export default function Home() {
       <SingleSlide />
       <BrandSlide />
       <Page />
+      <MenuButton />
     </div>
   );
+}
+
+Home.getLayout = function getLayout(page) {
+  return (
+    <Layout>{page}</Layout>
+  )
 }

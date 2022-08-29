@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner/Banner";
 import BrandInfo from "../components/BrandInfo";
+import Merchant from "../components/Layout/Merchant";
 import Photos from "../components/Photos";
 
 const Detail = () => {
@@ -14,3 +15,8 @@ const Detail = () => {
 };
 
 export default Detail;
+Detail.getLayout = function getLayout(page) {
+  return (
+    <Merchant>{page}</Merchant>
+  )
+}
